@@ -7,7 +7,7 @@
 }
 
 :root {
-  --primary-color: tomato;
+  --primary-color: hsl(206, 53%, 20%);
 }
 
 body {
@@ -30,6 +30,8 @@ h3 {
   font-size: 3rem;
   font-family: "My Soul", cursive;
   font-weight: 500;
+  color: #fff;
+  letter-spacing: .3rem;
 }
 
 h4 {
@@ -50,15 +52,24 @@ img {
   max-width: 100%;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 nav {
   text-align: center;
   padding: 3rem 0;
   background-color: var(--primary-color);
-  /* color: white; */
+  
+}
+
+main {
+  background: hsla(205, 46%, 33%, 0.185);
 }
 
 #hero {
-  margin: 5rem 0;
+  padding: 5rem 0;
 }
 
 .hero-container {
@@ -98,11 +109,11 @@ nav {
   }
 
   #hero {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 
   .hero-container {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     flex-direction: column;
     row-gap: 3rem;
   }
