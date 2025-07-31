@@ -79,8 +79,6 @@ main {
   border-radius: 10px;
 }
 
-
-
 .hero-container > * {
   flex-basis: 100%;
 }
@@ -124,9 +122,9 @@ main {
     font-size: 1.8rem;
   }
 
- a {
-  font-size: 1.6rem;
- }
+  a {
+    font-size: 1.6rem;
+  }
 
   p {
     font-size: 1.5rem;
@@ -152,10 +150,10 @@ main {
 
   .food p {
     text-align: center;
+    font-size: 1.6rem;
   }
 
   .fav_food {
-    margin-top: 1rem;
+    margin-top: 1.6rem;
   }
-
 }
