@@ -134,13 +134,13 @@ iframe {
   }
 
   p {
-    font-size: 1.5rem;
-    text-align: justify;
+    font-size: 1.4rem;
+    /* text-align: justify; */
   }
 
   .hero-container {
     flex-direction: column-reverse;
-    row-gap: 3rem;
+    row-gap: 2rem;
   }
 
   .hero-img img {
@@ -151,13 +151,13 @@ iframe {
   /* food styles  */
 
   .food {
-    padding-block: 2rem;
+    padding-block: 1rem 2rem;
     text-align: center;
   }
 
   .food p {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .fav_food {
