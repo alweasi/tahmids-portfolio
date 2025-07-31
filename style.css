@@ -31,21 +31,25 @@ h3 {
   font-family: "My Soul", cursive;
   font-weight: 500;
   color: #fff;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 p {
   font-size: 1.8rem;
 }
 
+a {
+  font-size: 1.8rem;
+}
+
 .container {
   max-width: 920px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.6rem;
 }
 
 img {
@@ -61,24 +65,21 @@ nav {
   text-align: center;
   padding: 3rem 0;
   background-color: var(--primary-color);
-  
 }
 
 main {
   background: hsla(205, 46%, 33%, 0.185);
 }
 
-#hero {
-  padding: 5rem 0;
-}
-
 .hero-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem 2rem;
+  padding-block: 3rem;
   border-radius: 10px;
 }
+
+
 
 .hero-container > * {
   flex-basis: 100%;
@@ -93,6 +94,17 @@ main {
   border-radius: 50%;
 }
 
+/* food styles  */
+
+.food {
+  text-align: center;
+  padding-block: 5rem;
+}
+
+.fav_food {
+  margin-top: 1rem;
+}
+
 #footer {
   text-align: center;
   padding: 3rem 0;
@@ -100,26 +112,50 @@ main {
 }
 
 @media (max-width: 500px) {
-  html {
-    font-size: 50%;
-  }
-
   h1 {
-    font-size: 4.4rem;
+    font-size: 2.5rem;
   }
 
-  #hero {
-  padding: 3rem 0;
-}
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+ a {
+  font-size: 1.6rem;
+ }
+
+  p {
+    font-size: 1.5rem;
+    text-align: justify;
+  }
 
   .hero-container {
-    padding: 2rem 2rem;
-    flex-direction: column;
+    flex-direction: column-reverse;
     row-gap: 3rem;
   }
 
   .hero-img img {
-    height: 300px;
-    border-radius: 50%;
+    height: 250px;
+    border-radius: 0 0 50% 50%;
   }
+
+  /* food styles  */
+
+  .food {
+    padding-block: 2rem;
+    text-align: center;
+  }
+
+  .food p {
+    text-align: center;
+  }
+
+  .fav_food {
+    margin-top: 1rem;
+  }
+
 }
