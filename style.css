@@ -135,12 +135,15 @@ iframe {
 
   p {
     font-size: 1.4rem;
-    /* text-align: justify; */
   }
 
   .hero-container {
     flex-direction: column-reverse;
     row-gap: 2rem;
+  }
+
+  .hero-content p {
+    margin-top: 1rem;
   }
 
   .hero-img img {
@@ -157,7 +160,7 @@ iframe {
 
   .food p {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .fav_food {
