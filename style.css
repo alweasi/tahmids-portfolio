@@ -99,6 +99,13 @@ main {
   padding-block: 5rem;
 }
 
+.food_content {
+  background-color: #ffffff9e;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+
+}
+
 .fav_food {
   margin-top: 2rem;
 }
@@ -106,6 +113,7 @@ main {
 iframe {
   width: 75%;
   height: 415px;
+  border-radius: 0 0 1rem 1rem;
 }
 
 /* footer styles  */
@@ -154,7 +162,7 @@ iframe {
   /* food styles  */
 
   .food {
-    padding-block: 1rem 2rem;
+    padding-block: 2rem 3rem;
     text-align: center;
   }
 
